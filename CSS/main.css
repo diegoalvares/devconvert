@@ -12,7 +12,6 @@ div>select{
 
 select>option{
     font-size: 30px;
-
 }
 
 div>input{
@@ -24,5 +23,39 @@ div>input{
 div>.row>.col>button{
     font-size: 30px;
     padding: 10px 20px 10px 20px;
-    margin-top: 80px;
+    margin-top: 40px;
+}
+
+#card{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px black;
+    margin-top: 40px;
+    margin-left: 18px;
+    margin-right: 80px;
+}
+
+#card>p{
+    padding: 10px;
+    font-weight: 600;
+}
+
+#card>ul{
+    list-style: inside circle;
+    margin-bottom: -10px;
+}
+
+#resultado>p{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(92, 189, 72);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 20px grey;
 }
