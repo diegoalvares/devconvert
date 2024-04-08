@@ -23,9 +23,9 @@
                     <input type="number" name="valor" id="valor" placeholder="Digite um valor...">
                 </div>
                 <div class="col-5">
-                    <label for="">Moeda</label>
+                    <label for="moeda">Moeda</label>
                     <select name="moeda" id="moeda">
-                        <option>
+                        <option id="vazio">
                             -------
                         </option>
                         <option id="dolar">
@@ -42,7 +42,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <button type="button" class="btn btn-success btn-lg btn-block">Converter</button>
+                    <button type="button" class="btn btn-success btn-lg btn-block" id="converter">Converter</button>
                 </div>
             </div>
             <div class="row">
@@ -55,8 +55,8 @@
                         </ul>
                     </p>
                 </div>
-                <div class="col" id="resultado">
-                    <p>Resultado: R$ <span id="valor">10,00</span>&#128176</p>
+                <div class="col">
+                    <p id="resultado">Resultado: R$ <span id="valor_resultado"></span>&#128176</p>
                 </div>
             </div>
         </div>
@@ -66,4 +66,5 @@
         <span>Site criado e desenvolvido por Diego Alvares de Macedo.</span>
     </footer>
 </body>
+<script src="funcoes.js"></script>
 </html>
