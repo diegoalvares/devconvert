@@ -1,0 +1,28 @@
+label{
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+div>select{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+select>option{
+    font-size: 30px;
+
+}
+
+div>input{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div>.row>.col>button{
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 80px;
+}
