@@ -1,4 +1,13 @@
 @media (max-width: 480px){
+    @keyframes descer {
+        from {
+          transform: translateY(-380px);
+        }
+        to {
+          transform: translateX(0);
+        }
+    }
+   
     header>h1{
         font-size: 40px;
     }
@@ -29,6 +38,10 @@
         font-size: 25px;
         margin-left: 50px;
         text-align: center;
+    }
+
+    #resultado{
+        font-size: 22px;
     }
 
     footer{
