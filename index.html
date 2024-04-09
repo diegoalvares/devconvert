@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="RESOLUCOES/mobile.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Conversor de Moedas</title>
 </head>
@@ -24,7 +25,7 @@
                     <input type="number" name="valor" id="valor" placeholder="Digite um valor...">
                 </div>
                 <div class="col">
-                    <label for="moeda">Tipo da Moeda</label>
+                    <label for="moeda">Tipo da Moeda:</label>
                     <select name="moeda" id="moeda">
                         <option id="vazio">
                             -------
@@ -47,7 +48,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col bg-info" id="card">
+                <div class="col-9 bg-info" id="card">
                     <p>Considere os seguintes valores:
                         <ul>
                             <li>Dólar ($): 5,07;
@@ -56,6 +57,8 @@
                         </ul>
                     </p>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col">
                     <p id="resultado">Resultado: R$ <span id="valor_resultado"></span>&#128176</p>
                 </div>
