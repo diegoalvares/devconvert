@@ -12,7 +12,7 @@
     }
 
     div>input{
-        margin-left: 40px;
+        margin-left: 25px;
         font-size: 25px;
     }
 
@@ -28,6 +28,7 @@
     #card{
         font-size: 25px;
         margin-left: 50px;
+        text-align: center;
     }
 
     footer{
