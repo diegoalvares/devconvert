@@ -1,3 +1,16 @@
+/*---------KEYFRAMES------------*/
+
+@keyframes descer {
+    from {
+      transform: translateY(-80px);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+
+/*---------------------*/
+
 label{
     font-size: 30px;
     font-weight: 600;
@@ -61,4 +74,6 @@ div>.row>.col>button{
     color: white;
     text-shadow: 1px 1px 1px black;
     box-shadow: 1px 1px 20px grey;
+    animation: descer 1s;
 }
+
