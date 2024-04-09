@@ -11,19 +11,20 @@
     <title>Conversor de Moedas</title>
 </head>
 <body>
-    <header class="bg-info">
+    <header>
         <h1>DEV_CONVERT</h1>
+        <h2 class="bg-info">Converta Dólar, Euro ou Iene para Real</h2>
     </header>
 
     <main>
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <label for="valor">Valor em real</label>
+                <div class="col-7.5">
+                    <label for="valor">Valor na moeda:</label>
                     <input type="number" name="valor" id="valor" placeholder="Digite um valor...">
                 </div>
-                <div class="col-5">
-                    <label for="moeda">Moeda</label>
+                <div class="col">
+                    <label for="moeda">Tipo da Moeda</label>
                     <select name="moeda" id="moeda">
                         <option id="vazio">
                             -------
@@ -34,7 +35,7 @@
                         <option id="euro">
                             Euro (€)
                         </option>
-                        <option id="Iene">
+                        <option id="iene">
                             Iene (¥)
                         </option>
                     </select>
