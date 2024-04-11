@@ -42,6 +42,11 @@
         text-align: center;
     }
 
+    #card>ul{
+        margin-left: 320px;
+        margin-right: 300px;
+    }
+
     #resultado{
         font-size: 25px;
         width: 800px;
