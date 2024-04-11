@@ -1,4 +1,4 @@
-@media (max-width: 480px){
+@media (min-width: 350px){
     @keyframes descer {
         from {
           transform: translateY(-380px);
@@ -22,11 +22,11 @@
 
     div>input{
         margin-left: 12vw;
-        font-size: 25px;
+        font-size: 22px;
     }
 
     div>select{
-        margin-left: 30vw;
+        margin-left: 28vw;
         font-size: 25px;
     }
 
