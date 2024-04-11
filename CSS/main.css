@@ -58,7 +58,9 @@ div>.row>.col>button{
 }
 
 #card>ul{
-    list-style: inside circle;
+    list-style: circle;
+    margin-left: 300px;
+    margin-right: 280px;
     margin-bottom: -10px;
 }
 

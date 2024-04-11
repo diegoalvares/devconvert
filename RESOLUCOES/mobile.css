@@ -40,6 +40,11 @@
         text-align: center;
     }
 
+    #card>ul{
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+
     #resultado{
         font-size: 22px;
     }
