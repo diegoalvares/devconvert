@@ -17,16 +17,16 @@
     }
 
     label{
-        margin-left: 80px;
+        margin-left: 20vw;
     }
 
     div>input{
-        margin-left: 25px;
+        margin-left: 12vw;
         font-size: 25px;
     }
 
     div>select{
-        margin-left: 110px;
+        margin-left: 30vw;
         font-size: 25px;
     }
 
